@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Bushwack" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Bushwack" parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/aqua</item>
+        <item name="colorPrimaryVariant">@color/toothpaste</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/jet_green</item>
+        <item name="colorSecondaryVariant">@color/light_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.MainActivity" parent="Theme.MaterialComponents.DayNight.NoActionBar" >
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/aqua</item>
+        <item name="colorPrimaryVariant">@color/toothpaste</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/jet_green</item>
+        <item name="colorSecondaryVariant">@color/light_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
 </resources>

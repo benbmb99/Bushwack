@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="aqua">#68EDF0</color>
+    <color name="royal_blue">#1C65F0</color>
+    <color name="light_blue">#18ECF0</color>
+    <color name="soft_blue">#18A8F0</color>
+    <color name="toothpaste">#18F0AB</color>
+    <color name="jet_green">#18F061</color>
+    <color name="maroon">#A62957</color>
+    <color name="true_blue">#2E5FF2</color>
+    <color name="faded_blue">#2980F2</color>
+    <color name="amber">#F2AA52</color>
+    <color name="salmon">#F28B50</color>
 </resources>

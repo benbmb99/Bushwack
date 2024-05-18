@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="165dp"
+        android:text="Welcome to Bushwack!"
+        android:textColor="@color/royal_blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app is designed to help you keep track of everyday things. It is meant to help you &quot;Bushwack&quot; your way through life a little easier. In future updates, I will be focusing more on preparation for outdoor excursions. For now, please enjoy this app as a small help in your busy life." />
+
+</RelativeLayout>
