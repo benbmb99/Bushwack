@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Builds the menu -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn = "navigation_view">
@@ -6,11 +8,13 @@
     <group
         android:checkableBehavior="single">
 
+        <!-- Home Page -->
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/baseline_home_24"
             android:title="Home"/>
 
+        <!-- List Page -->
         <item
             android:id="@+id/nav_list"
             android:icon="@drawable/baseline_list_24"
@@ -22,10 +26,12 @@
         android:title="">
 
         <menu>
+
+            <!-- Credits -->
             <item
-                android:id="@+id/logout"
+                android:id="@+id/credits"
                 android:icon="@mipmap/ic_launcher"
-                android:title="Logout"/>
+                android:title="App Created By Benjamin Bown"/>
         </menu>
     </item>
 

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Defines the full home layout -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,23 +8,45 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+    <!-- Defines the title -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="165dp"
-        android:layout_marginTop="62dp"
-        android:layout_marginEnd="165dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
         android:text="Welcome to Bushwack!"
+        android:textAlignment="center"
         android:textColor="@color/royal_blue"
-        android:textSize="30sp" />
+        android:textSize="36sp" />
 
+    <!-- Defines the first paragraph's layout -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This app is designed to help you keep track of everyday things. It is meant to help you &quot;Bushwack&quot; your way through life a little easier. In future updates, I will be focusing more on preparation for outdoor excursions. For now, please enjoy this app as a small help in your busy life." />
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="15dp"
+        android:text="This app is designed to help you keep track of everyday things. It is meant to help you &quot;Bushwack&quot; your way through life a little easier."
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <!-- Defines the second paragraph's layout -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="15dp"
+        android:text="In future updates, I will be focusing more on preparation for outdoor excursions. For now, please enjoy this app as a small help in your busy life."
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
 </RelativeLayout>
